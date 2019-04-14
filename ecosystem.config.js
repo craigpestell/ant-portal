@@ -22,7 +22,7 @@ module.exports = {
       user : 'repn',
       host : 'sfc-web',
       ref  : 'origin/master',
-      repo : 'git@github.com:repo.git',
+      repo : 'git@github.com:craigpestell/ant-portal.git',
       path : '/var/www/craigpestell.com',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
